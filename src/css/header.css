@@ -1,15 +1,22 @@
+:root {
+  --title-color: #0d0b0a;
+  --bg-color: #f2fafa;
+}
 .container {
-  width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 64px;
+  padding-right: 64px;
 }
 header {
   display: flex;
+  background-color: var(--bg-color);
 }
-.header-info {
-  color: black;
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-link {
+  color: #0d0b0a;
   font-family: Sarabun;
   font-size: 16px;
   font-style: normal;
@@ -17,24 +24,24 @@ header {
   line-height: 160%;
   display: flex;
   display: block;
-  margin-right: 161px;
-}
-
-.header-info:hover {
-  text-decoration: underline black;
 }
 .header-photo {
+  margin-right: 509px;
   display: flex;
   width: 84px;
-  height: 36px;
+  height: 46px;
   padding: 2.86px 0.5px 9.63px 0.353px;
   justify-content: center;
   align-items: center;
-  margin-left: 64px;
 }
+.header-info:hover {
+  text-decoration: underline black;
+}
+
 .header-list {
   display: flex;
   gap: 32px;
+  margin-right: 161px;
 }
 .header-button {
   display: flex;
