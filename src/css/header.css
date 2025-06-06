@@ -5,6 +5,8 @@
 .container {
   padding-left: 64px;
   padding-right: 64px;
+  margin-left: auto;
+  margin-right: auto;
 }
 header {
   display: flex;
@@ -13,6 +15,13 @@ header {
 nav {
   display: flex;
   align-items: center;
+  margin-right: 161px;
+}
+.header-container {
+  display: flex;
+  outline: solid red;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-link {
@@ -33,6 +42,7 @@ nav {
   padding: 2.86px 0.5px 9.63px 0.353px;
   justify-content: center;
   align-items: center;
+  margin-right: 509px;
 }
 .header-info:hover {
   text-decoration: underline black;

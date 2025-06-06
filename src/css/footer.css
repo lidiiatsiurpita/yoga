@@ -1,0 +1,173 @@
+.footer-container {
+    padding: 64px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0 auto;
+    background-color: rgb(223, 235, 235);
+}
+
+.footer-card {
+    display: flex;
+    width: 1312px;
+    padding: 48px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 16px;
+    border: 0px solid rgba(13, 11, 10, 0.15);
+    background: rgb(248, 251, 254);
+    width: 100%;
+    gap: auto;
+
+}
+
+.boxes23 {
+    display: flex;
+    width: 371px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 40px;
+    flex-shrink: 0;
+}
+
+.footer-logo {
+    width: 84px;
+    height: 36px;
+    margin-bottom: 33.63px;
+}
+
+.input-box {
+    display: flex;
+    gap: 16px;
+    align-self: stretch;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.footer-label {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.00);
+    background: rgba(13, 11, 10, 0.05);
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+
+}
+
+.footer-input {
+    color: rgba(13, 11, 10, 0.60);
+    font-family: Sarabun;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    flex: 1 0 0;
+
+}
+
+.footer-text {
+    color: rgb(13, 11, 10);
+    font-family: Sarabun;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    align-self: stretch;
+    padding-right: 39px;
+}
+
+.footer-button {
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.00);
+    background: rgba(13, 11, 10, 0.05);
+    display: flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-p {
+    color: rgb(13, 11, 10);
+    font-family: Sarabun;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 24px;
+}
+
+.footer-info {
+    color: rgb(13, 11, 10);
+    font-family: Sarabun;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.footer-tiittle {
+    color: rgb(13, 11, 10);
+    font-family: Sarabun;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    margin-bottom: 16px;
+}
+
+.footer-tittle {
+    color: rgb(13, 11, 10);
+    font-family: Sarabun;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    margin-bottom: 16px;
+}
+
+.box2-item {
+    color: rgb(13, 11, 10);
+    font-family: Sarabun;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    display: flex;
+    padding: 8px 0px;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+}
+
+.box3-text {
+    color: rgb(13, 11, 10);
+    font-family: Sarabun;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.box3-item {
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.footer-list1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-box2 {
+    width: 165.5px;
+}
+
+.footer-box3 {
+    width: 165.5px;
+}
