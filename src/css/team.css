@@ -48,78 +48,54 @@
   margin-bottom: 40px;
 }
 
-.team-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.team-photo {
+width: 421px;
+height: 395px;
+border-radius: 16px;
+padding-bottom: 24px;
+}
+
+.team-app {
+width: 24px;
+height: 24px;
+
+}
+
+.team-name {
+  color: var(--Color-Scheme-4-Text, #0D0B0A);
+text-align: center;
+font-family: Sarabun;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; 
+}
+
+.team-job-title {
+  color: var(--Color-Scheme-4-Text, #0D0B0A);
+  text-align: center;
+font-family: Sarabun;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+padding-bottom: 16px;
+}
+
+.team-info {
+  color: var(--Color-Scheme-4-Text, #0D0B0A);
+text-align: center;
+font-family: Sarabun;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+padding-bottom: 24px;
+max-width: 421px;
 }
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
-  margin-bottom: 40px;
-  align-items: center;
-  justify-content: center;
-}
-
-.team-list2 {
-  display: flex;
-  gap: 24px;
-  margin-bottom: 40px;
-  align-items: center;
-  justify-content: center;
-}
-
-.team-photo {
-  border-radius: var(--Radius-Medium, 16px);
-  background: url(<path-to-image>) lightgray -15.333px -3.724px / 105.142%
-    111.419% no-repeat;
-  width: 421px;
-  height: 395px;
-  padding-bottom: 24px;
-}
-
-.team-name {
-  color: var(--title-color);
-  text-align: center;
-
-  /* Text/Large/Semi Bold */
-  font-family: Sarabun;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 160%; /* 35.2px */
-}
-
-.team-job-title {
-  color: var(--Radius-Medium);
-  text-align: center;
-
-  /* Text/Medium/Normal */
-  font-family: Sarabun;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 28.8px */
-  padding-bottom: 16px;
-}
-
-.team-info {
-  color: var(--title-color);
-  text-align: center;
-
-  /* Text/Regular/Normal */
-  font-family: Sarabun;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 25.6px */
-  padding-bottom: 24px;
-}
-
-.team-app {
-  width: 24px;
-  height: 24px;
-  display: flex;
-  gap: 14px;
-}
+} 

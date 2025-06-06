@@ -42,17 +42,14 @@
 }
 
 .breathe-photo {
-  border-radius: var(--Radius-Medium, 16px);
-  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-  flex-basis: calc((100% - (24px * 2)) / 3);
-  height: 449px;
   width: 421px;
+  height: 448px;
+  border-radius: 16px;
 }
 
-.breathe-list {
+.breathe-list{
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto;
 }
