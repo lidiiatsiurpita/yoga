@@ -11,6 +11,7 @@
 header {
   display: flex;
   background-color: var(--bg-color);
+  justify-content: center;
 }
 nav {
   display: flex;
@@ -19,7 +20,6 @@ nav {
 }
 .header-container {
   display: flex;
-  outline: solid red;
   margin-left: auto;
   margin-right: auto;
 }
