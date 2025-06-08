@@ -1,0 +1,100 @@
+:root {
+  --title-color: #0d0b0a;
+  --bg-color: #f2fafa;
+}
+
+.container {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.team {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: var(--bg-color);
+}
+
+.team-subtitle {
+  color: var(--title-color);
+  text-align: center;
+  font-family: Sarabun;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+
+.team-title {
+  color: var(--title-color);
+  text-align: center;
+  font-family: Cabin;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.52px;
+  margin-bottom: 24px;
+}
+
+.team-text {
+  color: var(--title-color);
+  text-align: center;
+  font-family: Sarabun;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 40px;
+}
+
+.team-photo {
+width: 421px;
+height: 395px;
+border-radius: 16px;
+padding-bottom: 24px;
+}
+
+.team-app {
+width: 24px;
+height: 24px;
+
+}
+
+.team-name {
+  color: var(--Color-Scheme-4-Text, #0D0B0A);
+text-align: center;
+font-family: Sarabun;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; 
+}
+
+.team-job-title {
+  color: var(--Color-Scheme-4-Text, #0D0B0A);
+font-family: Sarabun;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+padding-bottom: 16px;
+}
+
+.team-info {
+  color: var(--Color-Scheme-4-Text, #0D0B0A);
+text-align: center;
+font-family: Sarabun;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+padding-bottom: 24px;
+max-width: 421px;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+} 
