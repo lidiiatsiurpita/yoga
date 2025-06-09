@@ -3,8 +3,7 @@
   --bg-color: #f2fafa;
 }
 .container {
-  padding-left: 64px;
-  padding-right: 64px;
+  padding: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -12,6 +11,8 @@ header {
   display: flex;
   background-color: var(--bg-color);
   justify-content: center;
+  padding-top: 23px;
+  padding-bottom: 23px;
 }
 nav {
   display: flex;
