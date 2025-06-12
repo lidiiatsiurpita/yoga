@@ -6,6 +6,8 @@
 .container {
   padding-left: 64px;
   padding-right: 64px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .breathe {
@@ -47,9 +49,15 @@
   border-radius: 16px;
 }
 
-.breathe-list{
+.breathe-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   margin: 0 auto;
+}
+
+.breathe-item {
+  height: 448px;
+  border-radius: 16px;
+  flex-basis: calc((100% - (24px * 2)) / 3);
 }
