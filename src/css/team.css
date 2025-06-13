@@ -58,14 +58,8 @@ border-radius: 16px;
 padding-bottom: 24px;
 }
 
-.team-app {
-width: 24px;
-height: 24px;
-
-}
-
 .team-name {
-  color: var(--Color-Scheme-4-Text, #0D0B0A);
+  color: var(--title-color);
 text-align: center;
 font-family: Sarabun;
 font-size: 22px;
@@ -74,18 +68,9 @@ font-weight: 600;
 line-height: 160%; 
 }
 
-.team-job-title {
-  color: var(--Color-Scheme-4-Text, #0D0B0A);
-font-family: Sarabun;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%;
-padding-bottom: 16px;
-}
 
 .team-info {
-  color: var(--Color-Scheme-4-Text, #0D0B0A);
+  color: var(--title-color);
 text-align: center;
 font-family: Sarabun;
 font-size: 16px;
@@ -93,11 +78,40 @@ font-style: normal;
 font-weight: 400;
 line-height: 160%; 
 padding-bottom: 24px;
+padding-top: 16px;
 max-width: 421px;
 }
 
-.team-list {
+.team-list1 {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  margin-bottom: 64px;
 } 
+
+.team-list2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.team-app {
+  width: 24px;
+  height: 24px;
+}
+
+.team-list-app {
+display: flex;
+justify-content: center;
+gap: 14px;
+}
+
+.team-job-title {
+  color: var(--Color-Scheme-4-Text, #0D0B0A);
+text-align: center;
+font-family: Sarabun;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+}
