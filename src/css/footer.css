@@ -1,8 +1,9 @@
 .footer-container {
-    padding: 64px;
     margin-right: auto;
     margin-left: auto;
-    margin: 0 auto;
+    width: 1312px;
+    padding-left: 12px;
+    padding-right: 12px;
     background-color: rgb(223, 235, 235);
 }
 
